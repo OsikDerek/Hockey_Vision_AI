@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated output
+output/
+*_analyzed.mp4
+*_report.txt
+*_report.json
+
+# Large binaries
+models/
+data/raw_videos/
+data/processed/
+*.pt
+*.onnx
+*.mp4
+*.webm
+*.mov
+!demos/**/*.mp4
+
+# Notebooks
+notebooks/.ipynb_checkpoints/
+
+# Local Claude state
+.claude/settings.local.json
+.claude/worktrees/
